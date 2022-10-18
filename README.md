@@ -1,4 +1,4 @@
-# Tahapan-tahapan dalam proses pembuatan aplikasi
+# Tahapan Pembuatan Aplikasi
 
 ## 1. Business Requirement Document (BRD)
   - Hasil riset tim produk/bisnis/operation (non-tech)
@@ -25,12 +25,16 @@
   - Base on UI/UX, misal dari screen A dibutuhkan 2 API, screen B 3 API, dst
   - Misalnya API untuk product, API untuk banner, API untuk promo, dst
   - Menentukan setiap API butuh request & responsenya seperti apa?
-  - Contoh: https://github.com/programmerzamannow/kotlin-restful-api
-  - Tujuan: Agar nanti saat development tim BE, FE & QA bisa jalan secara pararel, beda dengan Waterfall (misal tim FE harus nunggu dulu BE selesai)
+  
+  Contoh :
+  - https://github.com/programmerzamannow/kotlin-restful-api
+  
+  Tujuan :
+  - Agar nanti saat development tim beckend, frontend & QA bisa jalan secara pararel. beda dengan Waterfall (misal tim frontend harus nunggu dulu beckend selesai)
 
 ## 6. Development (Backend, Frontend, Quality Assurance)
-  - Tim BE bikin aplikasi Backend + Databasenya base on API Specification
-  - Tim FE bikin Frontend, consume API base on API Specification
+  - Tim beckend bikin aplikasi Backend + Databasenya base on API Specification
+  - Tim frontend bikin aplikasi Frontend, consume API base on API Specification
   - Tim QA bikin QA Automation base on API Specification
 
 ## 7. Non-Production Deployment
@@ -42,9 +46,13 @@
   - Testing lainnya: Performance Test & Security Test (tergantung ENV nya)
   - Setelah Testing, jika terdapat masalah, bisa segera improvement
  
-## 9. Tahap Akhir: Production Deployment
+## 9. Tahap Akhir (Production Deployment)
   - Intinya deploy ke production, customer bisa mulai memakai aplikasi
-  - Strategi: A/B Testing, Canary Deployment, Blue-Green Deployment, dsb
+  
+  Strategi :
+  - A/B Testing
+  - Canary Deployment
+  - Blue-Green Deployment
 
 ## 10. Maintenance/Improvement
   - Melakukan Improvement yaitu balik lagi ke tahapan awal, dari bikin BRD, kira-kira mau ada penambahan fitur baru apa, dsb. 
