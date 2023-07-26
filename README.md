@@ -2,7 +2,7 @@
 
 ## 1. Business Requirement Document (BRD)
   - Hasil riset tim produk/bisnis/operation (non-tech)
-  - Aplikasi apa yang mau dibuat? fiturnya apa aja?
+  - Aplikasi apa yang mau dibuat? fiturnya atau kebutuhan isstemnya apa aja?
   - Breakdown timelinenya (per bulan delivernya apa aja?)
   - Bagaimana flowchart bisnisnya? (bukan flowchart aplikasi)
 
@@ -27,7 +27,7 @@
   - Menentukan setiap API butuh request & responsenya seperti apa?
   
   Contoh :
-  - https://github.com/programmerzamannow/kotlin-restful-api
+  - https://github.com/saiful-akbar/api-specifications
   
   Tujuan :
   - Agar nanti saat development tim beckend, frontend & QA bisa jalan secara pararel. beda dengan Waterfall (misal tim frontend harus nunggu dulu beckend selesai)
@@ -47,12 +47,11 @@
   - Setelah Testing, jika terdapat masalah, bisa segera improvement
  
 ## 9. Tahap Akhir (Production Deployment)
-  - Intinya deploy ke production, customer bisa mulai memakai aplikasi
-  
-  Strategi :
-  - A/B Testing
-  - Canary Deployment
-  - Blue-Green Deployment
+  - Intinya deploy ke production, customer bisa mulai memakai aplikasi.
+  - Strategi :
+    - A/B Testing
+    - Canary Deployment
+    - Blue-Green Deployment
 
 ## 10. Maintenance/Improvement
   - Melakukan Improvement yaitu balik lagi ke tahapan awal, dari bikin BRD, kira-kira mau ada penambahan fitur baru apa, dsb. 
